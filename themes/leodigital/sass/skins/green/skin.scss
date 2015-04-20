@@ -1,0 +1,23 @@
+@import "compass";
+@import "theme_variables";
+
+//Image
+
+$image-theme-base-path : 'img/';
+
+
+.tp-bullets.simplebullets.round-old .bullet{
+	background-image:url('#{$image-theme-base-path}bullets.png'); 	
+}
+.block .list-block li 
+a{
+	&:hover, &.selected{
+		background:url('#{$image-theme-base-path}arrow-li.png') no-repeat scroll 0 -38px transparent;
+	}
+}
+.tp-leftarrow.default{
+		background:url('#{$image-theme-base-path}large_left.png') no-repeat scroll top left transparent;
+}
+.tp-rightarrow.default{
+		background:url('#{$image-theme-base-path}large_right.png') no-repeat scroll top left transparent;	
+}

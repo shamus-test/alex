@@ -1,0 +1,70 @@
+/* RIGHT TO LEFT */
+/*
+ * LAYOUT VARIABLES
+ */
+/* RIGHT TO LEFT */
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+.content_scene_cat {
+  overflow: hidden;
+}
+.content_scene_cat .category-name {
+  font-size: 14px;
+  color: #6e6e6e;
+  margin-bottom: 10px;
+}
+.content_scene_cat p {
+  margin-bottom: 0;
+}
+.content_scene_cat a {
+  color: #e76d66;
+}
+.green .content_scene_cat a {
+  color: #95bb7a;
+}
+.pink .content_scene_cat a {
+  color: deeppink;
+}
+.skyblue .content_scene_cat a {
+  color: #57a6b9;
+}
+.content_scene_cat a:hover {
+  text-decoration: underline;
+}
+.content_scene_cat .cat_desc {
+  padding: 15px 10px;
+}
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+#subcategories {
+  border-top: 1px solid #f2f5f8;
+  padding: 15px 0 0px 0;
+}
+#subcategories p.subcategory-heading a {
+  color: #6e6e6e;
+}
+#subcategories .subcategories {
+  border: 1px solid #f2f5f8;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#subcategories .subcategories:hover {
+  border-color: #e76d66;
+}
+.green #subcategories .subcategories:hover {
+  border-color: #95bb7a;
+}
+.pink #subcategories .subcategories:hover {
+  border-color: deeppink;
+}
+.skyblue #subcategories .subcategories:hover {
+  border-color: #57a6b9;
+}
+#subcategories .subcategories .subcategory-name {
+  font-size: 14px;
+  color: #6e6e6e;
+}

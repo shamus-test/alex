@@ -1,0 +1,22 @@
+/* RIGHT TO LEFT */
+/*
+ * LAYOUT VARIABLES
+ */
+/* RIGHT TO LEFT */
+.tp-bullets.simplebullets.round-old .bullet {
+  background-image: url("img/bullets.png");
+}
+
+.block .list-block li
+a:hover, .block .list-block li
+a.selected {
+  background: url("img/arrow-li.png") no-repeat scroll 0 -38px transparent;
+}
+
+.tp-leftarrow.default {
+  background: url("img/large_left.png") no-repeat scroll top left transparent;
+}
+
+.tp-rightarrow.default {
+  background: url("img/large_right.png") no-repeat scroll top left transparent;
+}

@@ -1,0 +1,62 @@
+@import "compass";
+@import "theme_variables";
+
+/*******************************************************
+Product list Styles
+********************************************************/
+
+
+/*******************************************************
+Product list(List) Styles 
+********************************************************/
+
+
+.product_list.list {
+	 .ajax_block_product {
+		.product-container{
+			border-bottom:1px solid #F3F3F3;
+			min-height: 230px;
+		}
+		.left-block {
+			position: relative;
+		}
+		.product-image-container {
+			.content_price {
+				display: none !important;	
+			}
+		}
+		.product-flags {
+			color: $base-text-color;
+			margin: -5px 0 10px 0;
+			.discount {
+				color: #f13340;	
+			}
+		}
+		h5 {
+			padding-bottom: 8px;
+		}
+		.product-desc {
+			margin-bottom: 15px;
+		}
+		.center-block {
+			.comments_note {
+				margin-bottom: 12px;	
+			}
+			.content_price{
+				padding-bottom:10px;
+			}
+		}
+	}
+}
+/*******************************************************
+Product list(Index page) Styles 
+********************************************************/
+
+/***** IE code *****/
+
+.ie8 {
+	.quick-view	 {
+		background: #fff;
+		border: 1px solid $base-border-color;	
+	}
+}

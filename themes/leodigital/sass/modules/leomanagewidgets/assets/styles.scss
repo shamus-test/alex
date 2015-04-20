@@ -1,0 +1,94 @@
+@import "compass";
+@import "theme_variables";
+
+
+
+// Footer
+
+.block_content {
+  .contact-us {
+    li {
+      line-height: 35px;
+      em {
+        background:#4A4A4A;
+
+        border-radius: 2px;
+        color: #D4D4D4;
+        display: inline-block;
+        font-size: 18px;
+        @include rtl-margin-right (10px);
+        text-align: center;
+        width: 28px;
+        @include rtl-padding(3px,0,3px,4px);
+      }
+      &:hover {
+        em {@include skin-background-color($theme-color-secondary); color: $white; }
+      }
+    }
+  }
+}
+
+//Custom HTLM
+
+/** Home */
+.media-list {
+  .media {
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #D9DADB;
+    padding: 20px 10px 10px 20px;
+    position: relative;
+    &:before{
+        background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+        content: "";
+        display: inline-block;
+        height: 559px;
+        position: absolute;
+        right: 755px;
+        top: 0;
+        @include transform(skew(-45deg));
+        @include transition(all 0.6s ease-in-out 0s);
+        width: 600px;
+    }
+    h3.media-heading {
+      font-family: $font-family;
+      color:#282b2f;
+      font-size: 23px;
+      text-transform: none;
+    }
+    h4.media-heading {
+      font-family: $font-custom;
+      font-size: 21px;
+      text-transform: uppercase;
+      a{
+        color:$white;
+      }
+    }
+    &:hover:before{
+      right:-700px;
+    }
+  }
+
+}
+.red {
+    background-color: #E76D66;
+    
+}
+.green {
+    background-color: #95BB7A;
+    
+}
+.blue {
+    background-color: #57A6B9;
+    
+}
+.dark {
+    background-color: #7F7F7F;
+}
+.red,.green,.blue ,.dark {
+  color:#fff;
+}
+.gray {
+    background-color: $gray;
+    color: #6E6E6E;
+    border: 1px solid #FEFEFE;
+}

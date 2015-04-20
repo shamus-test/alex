@@ -1,0 +1,34 @@
+/* RIGHT TO LEFT */
+/*
+ * LAYOUT VARIABLES
+ */
+/* RIGHT TO LEFT */
+.shop-phone {
+  float: right;
+}
+.rtl .shop-phone {
+  float: right;
+}
+.shop-phone i {
+  color: white;
+}
+
+#contact_block .label {
+  display: none;
+}
+#contact_block .block_content {
+  color: #888888;
+}
+#contact_block p {
+  margin-bottom: 4px;
+}
+#contact_block p.tel {
+  font: 400 17px/21px "proximanova", Arial, Helvetica, sans-serif;
+  color: #2e3039;
+  margin-bottom: 6px;
+}
+#contact_block p.tel i {
+  font-size: 25px;
+  vertical-align: -2px;
+  padding-right: 10px;
+}

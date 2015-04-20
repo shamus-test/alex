@@ -1,0 +1,251 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+@import "compass";
+@import "compass/reset";
+@import "theme_variables";
+@import "bootstrap";
+@import "font-awesome";
+
+@import "font";
+@import "_reset";
+@import "_layout";
+@import "_base";
+@import "_form";
+@import "_box";
+@import "_prestashop_pages";
+@import "_prestashop_modules";
+@import "_product_block";
+
+
+/* *****************************************************************
+  HEADER
+****************************************************************** */
+//Float header
+.mini-navbar{
+    min-height: 50px;
+     #header_logo {
+        padding: 10px;
+    }
+    #topnavigation #leo-top-menu .nav > li > a{
+      padding: 15px;
+    }
+    #search_block_top{
+      top:10px;
+    }
+}
+.hide-bar{
+  display: none;
+}
+
+
+header {
+  z-index: 1;
+  position: relative;
+
+  ul {
+    margin-bottom: 0;
+    &.links li {
+      display: inline-block;
+    }
+  }
+  .row {
+    position: relative;
+  }
+  .groupe-content.eshow {
+        background: $white;
+        @include border-radius(5px);
+        @include box-shadow(0 5px 10px rgba(0, 0, 0, 0.2));
+        display: block !important;
+        @include rtl-right (0);
+        padding: 10px;
+        position: absolute;
+        right: auto;
+        top: 35px;
+        z-index: 9999;
+        min-width: 140px;
+  }
+  .current {
+    &:after {
+      content: "\f0d7";
+      font-family: $font-icon;
+      font-size: 15px;
+      line-height: 15px;
+      color: #fff;
+      vertical-align: -2px;
+      padding-left: 7px;
+    }
+  }
+  ul.toogle_content {
+    display: none;
+    position: absolute;
+    top: 37px;
+    @include rtl-left(0);
+    min-width: 80px;
+    background: $white;
+    @include box-shadow(0 5px 10px rgba(0, 0, 0, 0.2));
+    padding: 10px;
+    z-index: 9999;
+    font-size: $font-size-base - 1;
+    @include border-radius(4px);
+    li {
+      line-height: 18px;
+      margin-bottom: 5px;
+      color: #868686;
+      a {
+        &.selected, &:hover a {
+          @include skin-color($theme-color-secondary);
+        }
+      }
+    }
+  }
+}
+#header_logo{
+  padding: 25px 10px;
+  position: relative;
+  z-index: 9998;
+  @include rtl-float-left();
+}
+
+.link_topbar,.groupe-btn {
+  @include rtl-float-left();
+  @include rtl-margin-right(5px);
+  position: relative;
+  padding: 0 7px;
+  background: $topbar-bg-link; 
+  cursor: pointer;
+  @include border-radius(3px);
+  min-width: 30px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+
+}
+/* *****************************************************************
+  Homepage Tabs
+****************************************************************** */
+#home-page-tabs {
+    border:none;
+    > li {
+        a {
+           font-size: $font-size-base + 2;
+          color:$base-title-color;
+          text-transform:uppercase;
+          border:none;
+          outline:none;
+          margin:0;
+          padding:7px 15px;
+          @include border-radius(4px);
+          margin-right: 10px;
+          font-weight: 700;
+        }
+    }
+    > li.active a, >li a:hover, >li a:focus {
+        background:$theme-color-secondary-one;
+        color: $white;
+    }
+}
+
+
+/* *****************************************************************
+  FOOTER
+****************************************************************** */
+
+// Make sure lists are correctly displayed in tinyMCE BO edition mode too
+#short_description_content ul,
+#short_description_content ol,
+#short_description_content dl,
+#tinymce ul,
+#tinymce ol,
+#tinymce dl {
+  margin-left: 20px;
+}
+
+.rte ul {
+  list-style-type: disc;
+}
+
+.rte ol {
+  list-style-type: decimal;
+}
+
+.block_hidden_only_for_screen {
+  display: none;
+}
+
+// Fancybox skin
+.fancybox-skin {
+  background: $light-background !important;
+}
+
+.fancybox-skin .fancybox-close {
+  width: 28px;
+  height: 28px;
+  background: none;
+  font-size: 28px;
+  line-height: 28px;
+  color: $base-text-color;
+  text-align: center;
+  background: white;
+  @include border-radius(50px);
+  &:hover {
+    @include skin-color($link-hover-color);
+  }
+  &:after {
+    content: "\f057";
+    font-family: $font-icon;
+  }
+}
+
+//temporary fix for quickview
+#product.content_only {
+  div.pb-left-column {
+    p.resetimg {
+      margin-bottom: 0px;
+      padding-top: 0px;
+    }
+    #thumbs_list_frame {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+//carousel
+.carousel-control{
+        font-size: 20px;
+        background-color: #F4F4F4;
+        background-image:none;
+        border: 0 none;
+        line-height:28px;
+        color: #B0B0B0;
+        height: 30px;
+        overflow: hidden;
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        width: 26px;
+        z-index: 999;
+        text-shadow:none;
+        font-weight: $theme-font-weight;
+         &.left {
+          left:-1px;
+          @include border-radius(0 3px 3px 0);
+          background-image:none;
+        }
+        &.right { right:-1px; @include border-radius(3px 0 0 3px); background-image:none;}
+        &:hover {@include skin-background-color($theme-color-secondary);color: $white !important;}
+}
+.products_block {
+    .carousel-control {
+    }
+}
+.widget-manufacture {
+  .carousel  { padding: 25px;}
+  .carousel-control {
+    &.left { left:-1px; }
+    &.right {right:-1px;}
+  }
+}
+
+
+
+

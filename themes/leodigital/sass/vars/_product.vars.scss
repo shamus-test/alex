@@ -1,0 +1,28 @@
+
+// Product Block Elements
+// ========================================================================
+
+$product-margin:             10px;
+$product-padding:            10px;
+
+$product-border-color:       transparent;
+$product-border-hover-color: $base-hover-border-color;
+
+$product-name-color:         #2E3039;
+$product-name-hover-color:   $link-hover-color;
+$product-name-font-size:     $font-size-base - 2;
+
+$price-color:				    $red-dark;
+$product-price-color:		    $price-color;
+$product-reduced-price:			$red;
+$product-special-price-color:	#f13340;
+$product-old-price-color:		#7e7f80;
+$product-old-font-size:      	$font-size-base - 1;
+
+$product-discount-color:         #488C40;
+$product-online-only-color:      $red;
+$product-lable-new-bg:           #11BCBA;
+$product-lable-sale-bg:          #F0607B;
+
+$product-buttons-color:          $black-light;
+$product-buttons-hover-color:    $theme-color-secondary;

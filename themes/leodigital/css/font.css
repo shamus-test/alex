@@ -1,0 +1,22 @@
+/* RIGHT TO LEFT */
+/*
+ * LAYOUT VARIABLES
+ */
+/* RIGHT TO LEFT */
+@font-face {
+  font-family: 'proximanovasemibold';
+  src: url("../font/proximanova-extrabold.eot");
+  src: url("../font/proximanova-extrabold.eot") format("embedded-opentype"), url("../font/proximanova-extrabold.woff") format("woff"), url("../font/proximanova-extrabold.ttf") format("truetype"), url("../font/proximanova-extrabold.svg#proximanovasemibold") format("svg");
+}
+
+@font-face {
+  font-family: 'proximanova';
+  src: url("../font/proximanova-regular.eot");
+  src: url("../font/proximanova-regular.eot") format("embedded-opentype"), url("../font/proximanova-regular.woff") format("woff"), url("../font/proximanova-regular.ttf") format("truetype"), url("../font/proximanova-regular.svg#proximanova") format("svg");
+}
+
+@font-face {
+  font-family: 'proximanovalight';
+  src: url("../font/proximanova-light.eot");
+  src: url("../font/proximanova-light.eot") format("embedded-opentype"), url("../font/proximanova-light.woff") format("woff"), url("../font/proximanova-light.ttf") format("truetype"), url("../font/proximanova-light.svg#proximanovalight") format("svg");
+}

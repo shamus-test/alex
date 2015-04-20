@@ -1,0 +1,35 @@
+*ERROR* 	2015/04/16 - 05:09:41: Property Tab->name is empty at line 913 in file classes/ObjectModel.php
+*ERROR* 	2015/04/16 - 05:11:11: Property Tab->name is empty at line 913 in file classes/ObjectModel.php
+*ERROR* 	2015/04/16 - 05:30:38: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3<br /><br /><pre>ALTER TABLE `ps_product_attribute` 
+					ADD COLUMN editor_note text NOT NULL,
+					ADD COLUMN shippin_and_return text NOT NULL,
+					</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 05:33:13: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3<br /><br /><pre>ALTER TABLE `ps_product_lang` 
+					DROP editor_note,
+					DROP shippin_and_return,
+					</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 05:33:49: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3<br /><br /><pre>ALTER TABLE `ps_product_lang` 
+					ADD editor_note TEXT NOT NULL,
+					ADD shippin_and_return TEXT NOT NULL,
+					</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 05:34:23: Can't DROP 'editor_note'; check that column/key exists<br /><br /><pre>ALTER TABLE `ps_product_lang` 
+					DROP editor_note,
+					DROP shippin_and_return
+					</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 05:57:42: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 05:57:45: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:16:51: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:16:57: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:17:35: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:17:39: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:23:39: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:23:46: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:24:30: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:24:32: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:24:48: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:25:14: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:25:21: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:26:52: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:26:54: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:27:44: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/04/16 - 06:27:50: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"1 LIMIT 1' at line 1<br /><br /><pre>SELECT * FROM ps_product_lang WHERE id_product = "1 LIMIT 1</pre> at line 646 in file classes/db/Db.php

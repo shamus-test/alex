@@ -1,0 +1,11 @@
+/* RIGHT TO LEFT */
+/*
+ * LAYOUT VARIABLES
+ */
+/* RIGHT TO LEFT */
+#languages-block-top span.firstWord {
+  display: none;
+}
+#languages-block-top ul.toogle_content {
+  min-width: 135px;
+}

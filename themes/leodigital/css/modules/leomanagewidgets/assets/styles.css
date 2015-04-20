@@ -1,0 +1,107 @@
+/* RIGHT TO LEFT */
+/*
+ * LAYOUT VARIABLES
+ */
+/* RIGHT TO LEFT */
+.block_content .contact-us li {
+  line-height: 35px;
+}
+.block_content .contact-us li em {
+  background: #4A4A4A;
+  border-radius: 2px;
+  color: #D4D4D4;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 10px;
+  text-align: center;
+  width: 28px;
+  padding: 3px 0 3px 4px;
+}
+.rtl .block_content .contact-us li em {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+.rtl .block_content .contact-us li em {
+  padding: 3px 4px 3px 0;
+}
+.block_content .contact-us li:hover em {
+  background-color: #e76d66;
+  color: white;
+}
+.green .block_content .contact-us li:hover em {
+  background-color: #95bb7a;
+}
+.pink .block_content .contact-us li:hover em {
+  background-color: deeppink;
+}
+.skyblue .block_content .contact-us li:hover em {
+  background-color: #57a6b9;
+}
+
+/** Home */
+.media-list .media {
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #D9DADB;
+  padding: 20px 10px 10px 20px;
+  position: relative;
+}
+.media-list .media:before {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+  content: "";
+  display: inline-block;
+  height: 559px;
+  position: absolute;
+  right: 755px;
+  top: 0;
+  -webkit-transform: skew(-45deg);
+  -moz-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  -o-transform: skew(-45deg);
+  transform: skew(-45deg);
+  -webkit-transition: all 0.6s ease-in-out 0s;
+  transition: all 0.6s ease-in-out 0s;
+  width: 600px;
+}
+.media-list .media h3.media-heading {
+  font-family: "proximanova", Arial, Helvetica, sans-serif;
+  color: #282b2f;
+  font-size: 23px;
+  text-transform: none;
+}
+.media-list .media h4.media-heading {
+  font-family: "proximanovalight", sans-serif;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.media-list .media h4.media-heading a {
+  color: white;
+}
+.media-list .media:hover:before {
+  right: -700px;
+}
+
+.red {
+  background-color: #E76D66;
+}
+
+.green {
+  background-color: #95BB7A;
+}
+
+.blue {
+  background-color: #57A6B9;
+}
+
+.dark {
+  background-color: #7F7F7F;
+}
+
+.red, .green, .blue, .dark {
+  color: #fff;
+}
+
+.gray {
+  background-color: #f8f8f8;
+  color: #6E6E6E;
+  border: 1px solid #FEFEFE;
+}

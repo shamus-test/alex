@@ -1,0 +1,126 @@
+
+//---------Layout config
+
+body.boxed-lg #page {
+    box-shadow: 0 0 5px #888;
+    max-width: 1170px;
+    margin:0 auto;
+}
+body.boxed-md #page {
+    box-shadow: 0 0 5px #888;
+    max-width: 970px;
+    margin:0 auto;
+}
+
+//Live theme edittor
+#customize-body {
+  .nav-tabs .active a {
+    @include skin-background-color($theme-color-secondary);
+  }
+}
+
+.content_only {
+    .panelbutton {display: none;}
+}
+
+// -------------Header
+#header {
+  z-index: 5003;
+}
+ #topbar {
+  background : $topbar-bg;
+  padding: $topbar-padding;
+  font-size: $font-size-base - 1;
+  @include transition(all 1s ease 0s);
+
+  a {
+    color: $topbar-text-color;
+    &:hover, &.active { @include skin-color($theme-color-secondary);}
+  }
+  .banner {
+    background: $black;
+    max-height: 100%;
+    .row {
+      margin: 0px;
+    }
+  }
+}
+
+#header-main {
+  margin-bottom:20px;
+  background-color: $white;
+  border-bottom: 1px solid #E7E7E7;
+  border-top: 1px solid #E7E7E7;
+  @include box-shadow(0 0 2px #D9DADB);
+}
+
+//----------Footer
+
+#footer {
+	color: $footer-link-color;
+	font-size: $footer-font-size;
+	.title_block {
+	  color:$footer-heading-color;
+	  font-size: $font-size-base + 4px;
+	  padding: 0;
+	  background: transparent;
+	  border-bottom: 0;
+	  line-height: 25px;
+	}
+	li.link {
+    line-height: 25px; 
+    a{
+      padding: 5px 0;
+      display: block;
+      &:hover{
+         &:before{
+              display: inline-block;
+              content: "\f0da";
+              font-family: $font-icon;
+              @include skin-color($theme-color-secondary);
+              width: 15px;
+         }
+      }
+    }
+  }
+	a {
+    color: $footer-link-color;
+    @include transition(all 0.5s ease-in-out 0s);
+    &:hover{
+      @include skin-color($theme-color-secondary);
+    }
+  }
+  p{
+    line-height: 22px;
+  }
+}
+
+// Top footer
+
+// Center Footer
+.footer-center {
+	.container-inner {
+    background-color: $footer-center-bg;
+    border-bottom:1px solid #303030;
+    @include border-radius(4px 4px 0 0);
+    overflow: hidden;
+    padding-bottom:20px;
+    h4, h4 a{
+      color:$white !important;
+      font-size: 18px;
+      padding: 0 0 18px;
+      margin-top:30px;
+    }
+  }
+}
+//Bottom Footer
+#footernav {
+	.inner {background-color: $copyright-bg; padding: 30px; border-radius:0 0 3px 3px; margin-bottom: 30px;}
+  #poweredby{
+    span{
+      @include skin-color($theme-color-secondary);
+    }
+  }
+}
+//poweredby
+#footnav {@include rtl-text-align-right();}

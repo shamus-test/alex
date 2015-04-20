@@ -1,0 +1,13 @@
+.alexlogin-register-wrap{
+	display:none;
+}
+
+.alexlogin-login-wrap{
+	display:none;
+}
+
+.btn-loading{
+	background: url('../images/loading-small.gif') no-repeat center center;    
+    cursor: default !important;
+    text-indent: -9999px;
+}

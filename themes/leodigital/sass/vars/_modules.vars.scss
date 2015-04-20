@@ -1,0 +1,34 @@
+
+// Mini basket and shopping cart
+// ========================================================================
+
+//Icon Cart top
+
+$cart-icon-bg:                      $theme-color-default !default;
+$cart-icon-color:                   $white !default;
+$cart-icon-font-size:               $font-size-base + 5 !default;
+$cart-heading-color:               	$red-dark;
+
+
+// Dropdowns Cart block top
+
+$cart-bg   : $white;
+$cart-name-color : $base-text-color;
+
+// layer cart
+
+
+//------Search top
+
+$search-bg      : $white;
+$search-border  : $main-border;
+
+//------Mega Menu
+
+$menu-bg                          : $white;
+$menu-link-color                  : $black-lighter;
+$menu-hover-link-color            : $theme-color-secondary;
+$menu-caret-border-color          : #333;
+$menu-caret-border-hover-color    : #333;
+$menu-bg-link-hover               :transparent;
+

@@ -1,0 +1,8 @@
+@import "compass";
+@import "theme_variables";
+#languages-block-top {
+	span.firstWord {
+		display: none;
+	}
+	ul.toogle_content {min-width:135px;}
+}

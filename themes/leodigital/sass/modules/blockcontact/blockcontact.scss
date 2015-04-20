@@ -1,0 +1,30 @@
+@import "compass";
+@import "theme_variables";
+.shop-phone {
+	@include rtl-float-left;
+	i {
+		color: $light-text-color;
+	}
+}
+
+#contact_block {
+	.label {
+		display: none
+	}
+	.block_content {
+		color: #888888;
+	}
+	p {
+		margin-bottom: 4px;
+	}
+	p.tel {
+		font: 400 17px/21px $font-family;
+		color: $base-text-color;
+		margin-bottom: 6px;
+		i {
+			font-size: 25px;
+			vertical-align: -2px; 
+			padding-right: 10px;
+		}
+	}
+}

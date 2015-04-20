@@ -1,0 +1,28 @@
+@import 'compass';
+@import "theme_variables";
+
+@font-face {
+    font-family: 'proximanovasemibold';
+    src: url('#{$font-custom-path}proximanova-extrabold.eot');
+    src: url('#{$font-custom-path}proximanova-extrabold.eot') format('embedded-opentype'),
+         url('#{$font-custom-path}proximanova-extrabold.woff') format('woff'),
+         url('#{$font-custom-path}proximanova-extrabold.ttf') format('truetype'),
+         url('#{$font-custom-path}proximanova-extrabold.svg#proximanovasemibold') format('svg');
+}
+
+@font-face {
+    font-family: 'proximanova';
+    src: url('#{$font-custom-path}proximanova-regular.eot');
+    src: url('#{$font-custom-path}proximanova-regular.eot') format('embedded-opentype'),
+         url('#{$font-custom-path}proximanova-regular.woff') format('woff'),
+         url('#{$font-custom-path}proximanova-regular.ttf') format('truetype'),
+         url('#{$font-custom-path}proximanova-regular.svg#proximanova') format('svg');
+}
+@font-face {
+    font-family: 'proximanovalight';
+    src: url('#{$font-custom-path}proximanova-light.eot');
+    src: url('#{$font-custom-path}proximanova-light.eot') format('embedded-opentype'),
+         url('#{$font-custom-path}proximanova-light.woff') format('woff'),
+         url('#{$font-custom-path}proximanova-light.ttf') format('truetype'),
+         url('#{$font-custom-path}proximanova-light.svg#proximanovalight') format('svg');
+}
